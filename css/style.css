@@ -1,0 +1,117 @@
+/* MAIN */
+
+/* RESET  - resetea los estilos por defecto del navegador */
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, img, small, 
+strong, center, ul, li, form, label, article, aside, figure, figcaption, 
+footer, header, menu, nav, section, audio, video, main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.8em; }
+h6 { font-size: 0.7em; }
+
+
+.button, a, a:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* MAIN */
+
+.Main {
+    display: flex;
+    width: 100vw;
+    height: 92vh;
+}
+
+.Main__section {
+    display: flex;
+    /* justify-content: center; */
+    width: 34%;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.Main__section h3 {
+    font-weight: 700;
+    font-size: 8rem;
+    line-height: 92%;
+}
+
+.Main__section article{
+    width: 100%;
+    text-align: center;
+}
+
+.Main__section--left{
+    background-color: #772014;
+    color: #ADCAD6;
+}
+
+
+.Main__section--center {
+    background-color: #3F7CAC;
+    color: #FFFFFF;
+}
+
+.Main__section--center img{
+    border-radius: 50%;
+}
+
+.Main__section--right {
+    background-color: #88A953;
+    color: #B02E0C;
+}
+
+.Main__section--right h3{
+    font-size: 12rem;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #031D44;
+    color: #D89786;
+    height: 8vh;
+}
+
+.Footer h4{
+    text-align: center;
+}
+
+.colors {
+    color: #772014;
+    color: #ADCAD6;
+    color: #FFFFFF;
+    color: #B02E0C;
+    color: #88A953;
+    color: #3F7CAC;
+    color: #D89786;
+    color: #031D44;
+}
